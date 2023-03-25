@@ -53,6 +53,10 @@ button{
     border: none;
     
 }
+button > a{
+    text-decoration: none;
+    color: crimson;
+}
 footer{
     display: flex;
     justify-content: space-between;
@@ -64,12 +68,38 @@ footer{
     justify-content: space-evenly;
     
 }
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+#submit{
+    color: crimson;
+    padding: 1rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.menu-check{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.custom-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 /*MEDIA QUERIES*/
 @media  screen and (min-width:320px)and (max-width:767px){
     .navbar{
         flex-direction: column;
     }
     .card{
+        flex-direction: column;
+    }
+    .menu-check{
         flex-direction: column;
     }
 }

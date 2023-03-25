@@ -2,6 +2,9 @@
     padding: 0;
 margin: 0;
 box-sizing: border-box;}
+body{
+    background-color: floralwhite;
+}
 .navbar{
     display: flex;
     
@@ -15,7 +18,7 @@ box-sizing: border-box;}
     color: crimson;
     padding: 1rem;
     text-align: center;
-    border: 2px solid black;
+    border: none;
     border-radius: 10px;
     background-color: blanchedalmond;
 }
@@ -25,4 +28,48 @@ h1{
     align-items: center;
     padding: 3rem;
     background-color: blanchedalmond;
+}
+
+.card-group{
+    width: 100%;
+    padding: 2rem;
+}
+.card-img-top{
+    padding: 1rem;
+    height: 150px;
+}
+.detail-btn  {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    
+    
+}
+button{
+    background-color: blanchedalmond;
+    color: crimson;
+    padding: 0.5rem;
+    border: none;
+    
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: blanchedalmond;
+}
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+/*MEDIA QUERIES*/
+@media  screen and (min-width:320px)and (max-width:767px){
+    .navbar{
+        flex-direction: column;
+    }
+    .card{
+        flex-direction: column;
+    }
 }

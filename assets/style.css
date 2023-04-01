@@ -91,20 +91,12 @@ form{
     justify-content: center;
     align-items: center;
 }
-table{
-    width: 100%;
-}
-table, th, td{
-    border: 1px solid black;
-}
+
+
 th{
     background-color: blanchedalmond;
 }
-td{
-    
-    padding: 1rem;
-}
-  
+
   
   
 /*MEDIA QUERIES*/

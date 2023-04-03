@@ -1,7 +1,7 @@
 const upcomingContainer = document.getElementById("upcoming-cards")
 const eventos = []
 for(let evento of data.eventos){
-  if(evento.id > 7){
+  if(evento.date.includes("2022")){
     eventos.push(evento)
   }
 }

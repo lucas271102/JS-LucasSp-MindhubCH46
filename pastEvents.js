@@ -2,7 +2,7 @@
 const pastContainer = document.getElementById("past-cards")
 const eventos = []
 for(let evento of data.eventos){
-  if(evento.id < 8){
+  if(evento.date.includes("2021") ){
     eventos.push(evento)
   }
 }

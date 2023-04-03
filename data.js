@@ -1,7 +1,8 @@
 const data={
-    "fechaActual": "2022-01-01",
-    "eventos": [
+    fechaActual: "2022-01-01",
+  "eventos": [
       {
+        "id":1,
         "image":"https://i.postimg.cc/kXWrBjXC/collectivities-party.jpg",
         "name":"Collectivities Party",
         "date":"2021-12-12",
@@ -13,6 +14,7 @@ const data={
         "price":5
       },
       {
+        "id": 2,
         "image":"https://i.postimg.cc/bvzmYgdm/korean.jpg",
         "name":"Korean style",
         "date":"2021-08-12",
@@ -24,6 +26,7 @@ const data={
         "price":10
       },
       {
+        "id":3,
         "image":"https://i.postimg.cc/nrQkSwwh/jurassic-park.jpg",
         "name":"Jurassic Park",
         "date":"2021-11-02",
@@ -35,6 +38,7 @@ const data={
         "price":15
       },
       {
+        "id": 4,
         "image":"https://i.postimg.cc/nr6dHtQm/paris.jpg",
         "name":"Parisian Museum",
         "date":"2022-11-02",
@@ -46,6 +50,7 @@ const data={
         "price":3500
        },
        {
+        "id":5,
         "image":"https://i.postimg.cc/Gph6gdP3/comicon.jpg",
         "name":"Comicon",
         "date":"2021-02-12",
@@ -57,6 +62,7 @@ const data={
         "price":54
        },
        {
+        "id":6,
           "image":"https://i.postimg.cc/RZ9fH4Pr/halloween.jpg",
           "name": "Halloween Night",
           "date":"2022-02-12",
@@ -68,6 +74,7 @@ const data={
           "price":12
       },
       {
+        "id":7,
           "image":"https://i.postimg.cc/XvQQr5C4/metallica-concert.jpg",
           "name":"Metallica in concert",
           "date":"2022-01-22",
@@ -79,6 +86,7 @@ const data={
           "price":150
       },
       {
+        "id":8,
         "image":"https://i.postimg.cc/FRY8mpn2/electronic.jpg",
         "name":"Electronic Fest",
         "date":"2021-01-22",
@@ -90,6 +98,7 @@ const data={
         "price":250
         },
       {
+        "id":9,
           "image":"https://i.postimg.cc/2V3FvcvY/10k-4life.jpg",
           "name":"10K for life",
           "date":"2021-03-01",
@@ -101,6 +110,7 @@ const data={
           "price":3
       },
       {
+        "id":10,
         "image":"https://i.postimg.cc/LYR31mkQ/15kny.jpg",
         "name":"15K NY",
         "date":"2021-03-01",
@@ -112,6 +122,7 @@ const data={
         "price":3
         },
       {
+        "id":11,
           "image":"https://i.postimg.cc/34BWbTsq/school-bookfair.jpg",
           "name":"School's book fair",
           "date":"2022-10-15",
@@ -123,6 +134,7 @@ const data={
           "price":1
       },
       {
+        "id":12,
         "image":"https://i.postimg.cc/PxJKYqWZ/just4-kitchen.jpg",
         "name":"Just for your kitchen",
         "date":"2021-11-09",
@@ -134,6 +146,7 @@ const data={
         "price":100
        },
        {
+        "id":13,
         "image":"https://i.postimg.cc/vH52y81C/cinema4.jpg",
         "name":"Batman",
         "date":"2021-3-11",
@@ -145,6 +158,7 @@ const data={
         "price":225
       },
       {
+        "id":14,
           "image":"https://i.postimg.cc/T3C92KTN/scale.jpg",
           "name":"Avengers",
           "date":"2022-10-15",
